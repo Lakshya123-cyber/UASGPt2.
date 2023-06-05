@@ -13,13 +13,15 @@ const App = () => {
   return (
     <BrowserRouter>
       <Navbar />
-      <Home />
-      <About />
-      <Contact />
-      <Member />
-      <Events />
-      <Plans />
-      <NotFound />
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="events" element={<Events />} />
+        <Route path="member" element={<Member />} />
+        <Route path="plans" element={<Plans />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </BrowserRouter>
   );
 };

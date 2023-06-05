@@ -31,7 +31,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  color: var(--color-gray-200);
+  color: var(--color-gray-100);
   line-height: 1.7;
   overflow-x: hidden;
   background: var(--color-primary);
@@ -69,4 +69,34 @@ img {
   display: block;
   object-fit: cover;
   width: 100%;
+}
+
+.btn {
+  color: var(--color-gray-100);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0.9rem 2rem;
+  background: var(--color-secondary);
+  border-radius: 1.5rem;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--color-gray-500);
+  color: var(--color-gray-100);
+}
+
+.btn.lg {
+  padding: 1.2rem 3rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+}
+
+.btn.sm {
+  padding: 0.4rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+.btn.sm:hover {
+  background: var(--color-gray-200);
 }
