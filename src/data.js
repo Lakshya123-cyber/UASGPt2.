@@ -219,7 +219,7 @@ export const plans = [
   },
 ];
 
-const Trainer1 = require("./images/harish.jpeg");
+const Trainer1 = require("./images/harish.png");
 const Trainer2 = require("./images/atima.jpg");
 const Trainer3 = require("./images/sunil.jpeg");
 const Trainer4 = require("./images/nirupma.jpeg");
