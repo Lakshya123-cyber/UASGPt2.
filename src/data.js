@@ -127,43 +127,43 @@ export const faqs = [
 export const testimonials = [
   {
     id: 1,
-    name: "Diana Ayi",
+    name: "Pradeep Chandra Sharma",
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-    job: "Student",
-    // avatar: require("./images/avatar1.jpg"),
+      "UASG is a dynamic and vibrant community that brings together Uttarakhandis and friends of Uttarakhand residing in Singapore",
+    job: "Ordinary Committee",
+    avatar: require("./images/logo.png"),
   },
   {
     id: 2,
-    name: "Daniel Vinyo",
+    name: "Jakhmola Vinod",
     quote:
-      "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-    job: "Software Egineer",
-    // avatar: require("./images/avatar2.jpg"),
+      "Being part of the UASG committee has allowed me to actively contribute to the preservation of our cultural heritage, the promotion of our traditions, and the welfare of our community.",
+    job: "Ordinary Committee",
+    avatar: require("./images/logo.png"),
   },
   {
     id: 3,
-    name: "Edem Quist",
+    name: "Neelam Rawat",
     quote:
-      "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-    job: "University Lecturer",
-    // avatar: require("./images/avatar3.jpg"),
+      "The committee members are dedicated, passionate, and work collaboratively to organize events, celebrate festivals, and support charitable initiatives.",
+    job: "Ordinary Committee",
+    avatar: require("./images/logo.png"),
   },
   {
     id: 4,
-    name: "Grace Lavoe",
+    name: "Ravinder Singh Rawat",
     quote:
-      "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
-    job: "Talking Parrot",
-    // avatar: require("./images/avatar4.jpg"),
+      "I feel proud and privileged to be part of UASG, and I highly appreciate the committee's efforts in strengthening the bonds within our community and representing our interests effectively.",
+    job: "Ordinary Committee",
+    avatar: require("./images/logo.png"),
   },
   {
     id: 5,
-    name: "Nana Yaa Dankwa",
+    name: "Sarita Dabral",
     quote:
-      "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
-    job: "Pharmacist",
-    // avatar: require("./images/avatar5.jpg"),
+      "The camaraderie and dedication within the committee are inspiring, and I am grateful to be a part of this close-knit group. UASG truly plays a vital role in fostering a sense of belonging and unity among Uttarakhandis in Singapore.",
+    job: "Ordinary Committee",
+    avatar: require("./images/logo.png"),
   },
 ];
 
