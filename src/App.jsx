@@ -10,8 +10,13 @@ import Plans from "./pages/plans/Plans";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import EventDetails from "./pages/eventDetails/EventDetails";
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <BrowserRouter>
       <Navbar />

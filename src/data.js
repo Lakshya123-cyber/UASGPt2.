@@ -331,3 +331,30 @@ export const events = [
     job: "Date: 18/03/2019",
   },
 ];
+
+export const posts = [
+  {
+    id: 1,
+    title: "dad",
+    desc: "dad",
+    img: require("./images/kauthig.jpg"),
+  },
+  {
+    id: 2,
+    title: "dad",
+    desc: "dad",
+    img: require("./images/kauthig.jpg"),
+  },
+  {
+    id: 3,
+    title: "dad",
+    desc: "dad",
+    img: require("./images/kauthig.jpg"),
+  },
+  {
+    id: 4,
+    title: "dad",
+    desc: "dad",
+    img: require("./images/kauthig.jpg"),
+  },
+];

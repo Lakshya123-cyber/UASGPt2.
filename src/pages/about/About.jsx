@@ -1,9 +1,16 @@
 import "./about.css";
 import Header from "../../components/Header";
 import image from "../../images/2.png";
-import Image from "../../images/logo.png";
+import Image from "../../images/moutain.jpeg";
+import i from "../../images/moutain2.jpeg";
+import iw from "../../images/moutain3.jpeg";
+import { useEffect } from "react";
 
 const About = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <>
       <Header title="About Us" image={image}>
@@ -71,7 +78,7 @@ const About = () => {
             </p>
           </div>
           <div className="about__section-image">
-            <img src={Image} alt="logo" />
+            <img src={i} alt="logo" />
           </div>
         </div>
       </section>
@@ -79,7 +86,7 @@ const About = () => {
       <section className="about__mission">
         <div className="container about__mission-container">
           <div className="about__section-image">
-            <img src={Image} alt="logo" />
+            <img src={iw} alt="logo" />
           </div>
           <div className="about__section-content">
             <h1>Our Mission</h1>

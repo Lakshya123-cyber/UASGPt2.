@@ -7,8 +7,13 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import Trainer from "../../components/Trainer";
 import "./member.css";
+import { useEffect } from "react";
 
 const Member = () => {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  }, []);
   return (
     <>
       <Header title="Core Members" image={image}>
