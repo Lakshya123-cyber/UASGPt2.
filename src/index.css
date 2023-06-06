@@ -34,7 +34,6 @@ body {
   color: var(--color-gray-100);
   line-height: 1.7;
   overflow-x: hidden;
-  background-image: url(./images/2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
