@@ -317,7 +317,7 @@ export const events = [
   {
     id: 2,
     image: image2,
-    name: "Diwali Celebration 2019",
+    name: "Diwali Celebration 2022",
     job: "Date: 18/08/2022",
   },
   {
