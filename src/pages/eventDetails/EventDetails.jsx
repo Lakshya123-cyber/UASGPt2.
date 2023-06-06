@@ -19,6 +19,9 @@ const EventDetails = () => {
             <div className="content">
               <h1>{post.title}</h1>
               <p>{post.desc}</p>
+              <br />
+              <br />
+              <br />
             </div>
           </div>
         ))}
