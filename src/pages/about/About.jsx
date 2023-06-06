@@ -1,6 +1,6 @@
 import "./about.css";
 import Header from "../../components/Header";
-import image from "../../images/2.jpg";
+import image from "../../images/2.png";
 import Image from "../../images/logo.png";
 
 const About = () => {
