@@ -88,39 +88,39 @@ export const values = [
 export const faqs = [
   {
     id: 1,
-    question: "How often should I exercise?",
+    question: "Why should I get this membership?",
     answer:
-      "Consectetur adipisicing elit. Non ipsa dolorem, rem consequatur eum omnis ex, fuga temporibus qui nesciunt odio aliquam commodi culpa inventore ut similique repellendus perferendis sint!",
+      "Joining the Uttarakhand Association of Singapore (UASG) provides a unique opportunity to network with fellow Uttarakhandis and friends of Uttarakhand residing in Singapore. By becoming a member, you can fulfill your social responsibility obligations by actively participating in UASG events and contributing to charitable programs in Uttarakhand. Being part of UASG allows you to be part of a close-knit and highly motivated core team dedicated to promoting Uttarakhandi culture, supporting the community, and making a positive impact both locally and back home in Uttarakhand.",
   },
   {
     id: 2,
-    question: "What time of day is best to work out?",
+    question: "Is Uttarakhand really worth visiting?",
     answer:
-      "Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui. Eos, omnis beatae? Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit.",
+      "Uttarakhand is a must-visit destination for its breathtaking natural beauty, spiritual significance, adventure activities, cultural heritage, and pilgrimage sites. With stunning landscapes, serene lakes, and cascading waterfalls, the state offers scenic beauty and opportunities for wildlife enthusiasts. It is known as the 'Land of the Gods', with sacred sites like Rishikesh and the Char Dham temples. Adventure seekers can enjoy trekking, rafting, paragliding, and skiing. Uttarakhand's rich cultural heritage, vibrant festivals, and warm hospitality provide a chance to experience local traditions. The state also hosts important pilgrimage sites beyond the Char Dham, attracting devotees seeking spiritual solace.",
   },
   {
     id: 3,
-    question: "How long should my workouts be?",
+    question: "How long should my stay in Uttarakhand be?",
     answer:
-      "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.",
+      "The duration of your stay in Uttarakhand can vary depending on your personal preferences, available time, and the specific places and activities you plan to explore.",
   },
   {
     id: 4,
-    question: "Do I need to warm up before my workouts?",
+    question: "When do I have to visit Uttarakhand if I have to see snow?",
     answer:
-      "Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate? Qui totam est omnis dolor nobis quisquam veritatis a!",
+      "If you want to witness snow in Uttarakhand, the best time to visit would generally be during the winter months, specifically from December to February. During this period, many regions in Uttarakhand, especially the higher-altitude areas, experience snowfall. Popular destinations like Auli, Munsiyari, and the higher reaches of hill stations like Mussoorie and Nainital are likely to be covered in snow during this time.",
   },
   {
     id: 5,
-    question: "Should I do strength training, cardio or both?",
+    question: "Will I get tired travelling?",
     answer:
-      "Maiores fuga, cum praesentium esse laudantium! Distinctio nihil blanditiis accusantium atque, quo maxime inventore eum! Cum dolorem quibusdam amet et qui.",
+      "The level of tiredness you may experience while traveling in Uttarakhand can vary depending on various factors such as the duration of your journey, mode of transportation, the activities you engage in, and your personal stamina.",
   },
   {
     id: 6,
-    question: "Should I lift weights for strength training?",
+    question: "What are the most popular places in Uttarakhand to visit?",
     answer:
-      "Quas, est at! Molestiae quidem ab soluta exercitationem culpa nostrum iusto illum qui non a harum deserunt atque commodi at velit, consequatur quibusdam dignissimos cum labore possimus placeat consectetur nisi cupiditate.",
+      "Uttarakhand offers a plethora of popular destinations to visit. Rishikesh is renowned for its spiritual significance and is known as the 'Yoga Capital of the World'. Nainital, a picturesque hill station with a serene lake, is a favorite among tourists. Mussoorie, known as the 'Queen of Hills', offers stunning views of the Himalayas. Haridwar, famous for its Ganga Aarti, is a significant pilgrimage site. Other notable places include the Char Dham (Badrinath, Kedarnath, Gangotri, Yamunotri), Auli for skiing, Jim Corbett National Park for wildlife enthusiasts, and the Valley of Flowers for its exquisite flora.",
   },
 ];
 

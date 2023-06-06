@@ -34,7 +34,15 @@ body {
   color: var(--color-gray-100);
   line-height: 1.7;
   overflow-x: hidden;
-  background: var(--color-primary);
+  background-image: url(./images/2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient(
+    to right,
+    rgba(255, 122, 89, 1),
+    rgba(255, 122, 89, 0.4)
+  );
 }
 
 .container {
@@ -112,15 +120,15 @@ section {
 }
 
 .section__head span {
-  background: var(--color-secondary);
-  padding: 0.8rem;
+  background: var(--color-primary);
+  padding: 0.6rem;
   border-radius: 1rem;
   color: var(--color-gray-500);
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 .card {
-  background: var(--color-gray-500);
+  background: var(--color-secondary);
   border: 2px solid transparent;
   text-align: center;
   padding: 3rem 2rem;
@@ -137,7 +145,7 @@ section {
 .card span {
   width: 3rem;
   height: 3rem;
-  background: var(--color-secondary);
+  background: var(--color-gray-400);
   font-size: 1.5rem;
   padding: 0.8rem;
   display: grid;
