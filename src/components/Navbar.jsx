@@ -36,7 +36,11 @@ const Navbar = () => {
           className="nav__toggle-btn"
           onClick={() => setIsNavShowing((prev) => !prev)}
         >
-          {isNavShowing ? <MdOutlineClose /> : <GoThreeBars />}
+          {isNavShowing ? (
+            <MdOutlineClose style={{ color: "black" }} />
+          ) : (
+            <GoThreeBars style={{ color: "black" }} />
+          )}
         </button>
       </div>
     </nav>

@@ -1,7 +1,10 @@
 nav {
   height: 5rem;
   width: 100vw;
-  background: var(--color-secondary);
+  background: url("../images/dddd.jpeg");
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-blend-mode: lighten;
   display: grid;
   place-items: center;
   position: fixed;
@@ -35,6 +38,8 @@ nav {
 }
 
 .nav__links a {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
   transition: var(--transition);
 }
 
@@ -51,7 +56,10 @@ nav {
   display: block;
   width: 1.2rem;
   height: 1.2rem;
-  background: var(--color-secondary);
+  background: url("../images/dddd.jpeg");
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
   position: absolute;
   left: calc(50% - 0.6rem);
   transform: rotate(45deg);
