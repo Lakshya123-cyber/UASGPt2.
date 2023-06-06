@@ -1,9 +1,15 @@
-import './event.css'
+import image from "../../images/2.jpg";
+import "./event.css";
+import Header from "../../components/Header";
 
 const Events = () => {
   return (
-    <div>Events</div>
-  )
-}
+    <>
+      <Header title="Our Events" image={image}>
+        Fun and exciting events from our community!
+      </Header>
+    </>
+  );
+};
 
-export default Events
+export default Events;

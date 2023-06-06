@@ -20,7 +20,7 @@ const About = () => {
           </div>
           <div className="about__section-content">
             <h1>Our Story</h1>
-            <p>
+            <p className="p">
               Our story began in the nineties! The Uttarakhand community in
               Singapore constituted of a small group of families who had
               migrated to Singapore following work opportunities. As more
@@ -33,7 +33,7 @@ const About = () => {
               members met every now and then and created informal channels to
               connect and help each other.
             </p>
-            <p>
+            <p className="p">
               The idea of the Uttarakhand Association of Singapore came into
               being in 2013 when the aftermath of the Uttarakhand Tsunami
               spurred a collective sense of grief and the need to create a space
@@ -51,13 +51,13 @@ const About = () => {
         <div className="container about__vision-container">
           <div className="about__section-content">
             <h1>Our Vision</h1>
-            <p>
+            <p className="p">
               The UASG was officially registered in 2014 with 25 families as
               official members. Since then, our numbers have grown and it is
               with a great sense of pride that we reflect back on our journey
               thus far.
             </p>
-            <p>
+            <p className="p">
               Our association has been involved in celebrations, charities,
               wellness workshops, entrepreneurship programmes as well as
               promoting our culture within and beyond Singapore. We are
@@ -83,7 +83,7 @@ const About = () => {
           </div>
           <div className="about__section-content">
             <h1>Our Mission</h1>
-            <p>
+            <p className="p">
               The Uttarakhand Association of Singapore (UASG) aims to create a
               strong and united community by valuing our cultural identities
               through the promotion and celebration of Uttarakhand culture and
@@ -91,14 +91,14 @@ const About = () => {
               relationships among Uttarakhandi families in Singapore, fostering
               a sense of belonging.
             </p>
-            <p>
+            <p className="p">
               Additionally, we actively promote Uttarakhandi talents and
               businesses by creating opportunities through socio-cultural
               events. UASG is committed to supporting Uttarakhandi families in
               need and also works towards building connections within the wider
               Singapore community, promoting diversity and harmony.
             </p>
-            <p>
+            <p className="p">
               Lastly, we extend our support to the local community through
               volunteerism and fundraising initiatives, contributing positively
               to society.

@@ -31,28 +31,28 @@ export const programs = [
   {
     id: 1,
     icon: <BsPinMap />,
-    title: "Diwali Celebration 2022",
+    title: "Kauthig 2023",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/111",
   },
   {
     id: 2,
     icon: <BsPinMap />,
-    title: "Kauthig 2019",
+    title: "Diwali Celebration 2022",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/222",
   },
   {
     id: 3,
     icon: <BsPinMap />,
-    title: "Holi Celebration 2019",
+    title: "Kauthig 2019",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/333",
   },
   {
     id: 4,
     icon: <BsPinMap />,
-    title: "Important Workshop",
+    title: "Holi Celebration 2019",
     info: "This is the day that the lord has made. We will rejoice!",
     path: "/programs/444",
   },
@@ -170,9 +170,9 @@ export const testimonials = [
 export const plans = [
   {
     id: 1,
-    name: "Silver Package",
+    name: "Annual Plan",
     desc: "This package is perfect for beginners who need constant help",
-    price: 29.99,
+    price: 120,
     features: [
       { feature: "First Feature", available: true },
       { feature: "Second Feature", available: true },
@@ -191,9 +191,9 @@ export const plans = [
   },
   {
     id: 2,
-    name: "Gold Package",
+    name: "5 Year Plan",
     desc: "This is the perfect package for beginners who know what their doing",
-    price: 49.99,
+    price: 500,
     features: [
       { feature: "First Feature", available: true },
       { feature: "Second Feature", available: true },
@@ -212,9 +212,9 @@ export const plans = [
   },
   {
     id: 3,
-    name: "Platinum Package",
+    name: "Lifetime Plan",
     desc: "This package is perfect for busy people who need home service",
-    price: 89.99,
+    price: 1000,
     features: [
       { feature: "First Feature", available: true },
       { feature: "Second Feature", available: true },
