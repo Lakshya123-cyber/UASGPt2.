@@ -223,7 +223,7 @@ const Trainer1 = require("./images/harish.png");
 const Trainer2 = require("./images/atima.jpg");
 const Trainer3 = require("./images/sunil.jpeg");
 const Trainer4 = require("./images/nirupma.jpeg");
-const Trainer5 = require("./images/vinod.jpeg");
+const Trainer5 = require("./images/hamini.png");
 
 const image1 = require("./images/cover.png");
 const image2 = require("./images/diwali.jpeg");
