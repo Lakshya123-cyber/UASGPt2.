@@ -335,26 +335,26 @@ export const events = [
 export const posts = [
   {
     id: 1,
-    title: "dad",
-    desc: "dad",
-    img: require("./images/kauthig.jpg"),
+    title: "Kauthig 2023",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, impedit optio inventore rerum vitae delectus velit voluptate ratione libero officiis sunt aut corrupti necessitatibus amet nobis, mollitia quis perspiciatis molestias consectetur non sed eos atque! Neque, magni officia. Assumenda ducimus, quas, ipsum incidunt voluptatem nemo ipsa dignissimos sapiente qui quia nulla. Maiores, vitae aperiam quod ab sapiente aliquam est ea provident libero asperiores illum ipsa perspiciatis magnam repudiandae veritatis, deleniti voluptatem dolorum doloribus. Ab repellendus laborum alias voluptatem quia incidunt aut. Architecto nulla atque saepe repellendus mollitia, exercitationem nihil dicta dolore odit itaque perspiciatis doloremque eligendi quae cupiditate. Incidunt, alias!",
+    img: require("./images/cover.png"),
   },
   {
     id: 2,
-    title: "dad",
-    desc: "dad",
-    img: require("./images/kauthig.jpg"),
+    title: "Diwali Celebration 2022",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, impedit optio inventore rerum vitae delectus velit voluptate ratione libero officiis sunt aut corrupti necessitatibus amet nobis, mollitia quis perspiciatis molestias consectetur non sed eos atque! Neque, magni officia. Assumenda ducimus, quas, ipsum incidunt voluptatem nemo ipsa dignissimos sapiente qui quia nulla. Maiores, vitae aperiam quod ab sapiente aliquam est ea provident libero asperiores illum ipsa perspiciatis magnam repudiandae veritatis, deleniti voluptatem dolorum doloribus. Ab repellendus laborum alias voluptatem quia incidunt aut. Architecto nulla atque saepe repellendus mollitia, exercitationem nihil dicta dolore odit itaque perspiciatis doloremque eligendi quae cupiditate. Incidunt, alias!",
+    img: require("./images/diwali.jpeg"),
   },
   {
     id: 3,
-    title: "dad",
-    desc: "dad",
+    title: "Kauthig 2019",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, impedit optio inventore rerum vitae delectus velit voluptate ratione libero officiis sunt aut corrupti necessitatibus amet nobis, mollitia quis perspiciatis molestias consectetur non sed eos atque! Neque, magni officia. Assumenda ducimus, quas, ipsum incidunt voluptatem nemo ipsa dignissimos sapiente qui quia nulla. Maiores, vitae aperiam quod ab sapiente aliquam est ea provident libero asperiores illum ipsa perspiciatis magnam repudiandae veritatis, deleniti voluptatem dolorum doloribus. Ab repellendus laborum alias voluptatem quia incidunt aut. Architecto nulla atque saepe repellendus mollitia, exercitationem nihil dicta dolore odit itaque perspiciatis doloremque eligendi quae cupiditate. Incidunt, alias!",
     img: require("./images/kauthig.jpg"),
   },
   {
     id: 4,
-    title: "dad",
-    desc: "dad",
-    img: require("./images/kauthig.jpg"),
+    title: "Holi Celebration 2019",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, impedit optio inventore rerum vitae delectus velit voluptate ratione libero officiis sunt aut corrupti necessitatibus amet nobis, mollitia quis perspiciatis molestias consectetur non sed eos atque! Neque, magni officia. Assumenda ducimus, quas, ipsum incidunt voluptatem nemo ipsa dignissimos sapiente qui quia nulla. Maiores, vitae aperiam quod ab sapiente aliquam est ea provident libero asperiores illum ipsa perspiciatis magnam repudiandae veritatis, deleniti voluptatem dolorum doloribus. Ab repellendus laborum alias voluptatem quia incidunt aut. Architecto nulla atque saepe repellendus mollitia, exercitationem nihil dicta dolore odit itaque perspiciatis doloremque eligendi quae cupiditate. Incidunt, alias!",
+    img: require("./images/holi.png"),
   },
 ];

@@ -20,6 +20,7 @@ const EventDetails = () => {
               <h1>{post.title}</h1>
               <p>{post.desc}</p>
             </div>
+            
           </div>
         ))}
       </div>
