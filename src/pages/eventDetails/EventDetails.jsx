@@ -22,6 +22,8 @@ const EventDetails = () => {
         >
           Kauthig Brochure 2023
         </a>
+        <br />
+        <br />
         {posts.map((post) => (
           <div className="post" key={post.id}>
             <div className="img">
