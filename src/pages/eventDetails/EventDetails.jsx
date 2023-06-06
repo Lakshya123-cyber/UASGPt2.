@@ -18,7 +18,7 @@ const EventDetails = () => {
           without
           rel="noopener noreferrer"
           target="_blank"
-          className="btn lg"
+          className="btn sm"
         >
           Kauthig Brochure 2023
         </a>
