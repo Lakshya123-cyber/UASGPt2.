@@ -328,4 +328,51 @@ footer {
   .main__header-container {
     grid-template-columns: 1fr;
   }
+
+  .programs__wrapper {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 3rem;
+  }
+
+  .programs__program {
+    width: 84%;
+    margin: 0 auto;
+  }
+
+  .values__wrapper {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .card.values__value {
+    width: 84%;
+    margin-inline: auto;
+  }
+
+  .faqs__wrapper {
+    gap: 1rem;
+    margin-top: 3rem;
+  }
+
+  .testimonials {
+    width: 100%;
+  }
+
+  footer {
+    margin-top: 7rem;
+  }
+
+  .footer__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .footer__container article {
+    align-items: center;
+  }
+
+  .footer__container article p{
+    text-align: center;
+  }
 }
