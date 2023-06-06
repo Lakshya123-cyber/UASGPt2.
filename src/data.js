@@ -336,7 +336,7 @@ export const posts = [
   {
     id: 1,
     title: "Kauthig 2023",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, impedit optio inventore rerum vitae delectus velit voluptate ratione libero officiis sunt aut corrupti necessitatibus amet nobis, mollitia quis perspiciatis molestias consectetur non sed eos atque! Neque, magni officia. Assumenda ducimus, quas, ipsum incidunt voluptatem nemo ipsa dignissimos sapiente qui quia nulla. Maiores, vitae aperiam quod ab sapiente aliquam est ea provident libero asperiores illum ipsa perspiciatis magnam repudiandae veritatis, deleniti voluptatem dolorum doloribus. Ab repellendus laborum alias voluptatem quia incidunt aut. Architecto nulla atque saepe repellendus mollitia, exercitationem nihil dicta dolore odit itaque perspiciatis doloremque eligendi quae cupiditate. Incidunt, alias!",
+    desc: "Kauthig Singapore 2023 is a biennial event organized by the Uttarakhand Association of Singapore. It aims to celebrate the unique land of Uttarakhand and promote awareness of its rich cultural heritage. The event showcases folk-songs, dances, and cuisine from Uttarakhand. Well-known artists from Uttarakhand will be flown in as special invited guests to perform at the event. The event will take place on August 6, 2023, at the PGP Hall on Serangoon Road in Singapore. The schedule includes a tea and registration session at 15:00 hrs, a cultural program from 16:00 hrs to 19:00 hrs, and a Pahadi Buffet Dinner from 19:00 hrs to 21:00 hrs. The audience for the event primarily consists of members of the Indian diaspora.",
     img: require("./images/cover.png"),
   },
   {

@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import { posts } from "../../data";
 import "./eventDetails.css";
+import { Link } from "react-router-dom";
+import pdf from "../../images/kauthigg.pdf";
 
 const EventDetails = () => {
   useEffect(() => {
@@ -11,6 +13,15 @@ const EventDetails = () => {
   return (
     <div className="home">
       <div className="posts">
+        <a
+          href={pdf}
+          without
+          rel="noopener noreferrer"
+          target="_blank"
+          className="btn lg"
+        >
+          Kauthig Brochure 2023
+        </a>
         {posts.map((post) => (
           <div className="post" key={post.id}>
             <div className="img">
