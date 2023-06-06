@@ -9,7 +9,7 @@ const Values = () => {
     <section className="values">
       <div className="container values__container">
         <div className="values__left">
-          <img src={Image} alt="value" />
+          <img className="values__image" src={Image} alt="value" />
         </div>
         <div className="values__right">
           <SectionHead icon={<GiCutDiamond />} title="Why Visit Uttarakhand" />
