@@ -55,7 +55,7 @@
 
   .home .posts {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 5rem;
   }
 }
 
