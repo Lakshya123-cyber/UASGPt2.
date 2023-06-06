@@ -14,6 +14,10 @@ export const links = [
     path: "/events",
   },
   {
+    name: "Event Details",
+    path: "/event_details",
+  },
+  {
     name: "Members",
     path: "/members",
   },
@@ -215,7 +219,7 @@ export const plans = [
   },
 ];
 
-const Trainer1 = require("./images/harish.jpeg");
+const Trainer1 = require("./images/harish.JPEG");
 const Trainer2 = require("./images/atima.jpg");
 const Trainer3 = require("./images/sunil.jpeg");
 const Trainer4 = require("./images/nirupma.jpeg");
@@ -310,6 +314,18 @@ export const events = [
   },
   {
     id: 4,
+    image: image4,
+    name: "Holi Celebration 2019",
+    job: "Date: 18/03/2019",
+  },
+  {
+    id: 5,
+    image: image4,
+    name: "Holi Celebration 2019",
+    job: "Date: 18/03/2019",
+  },
+  {
+    id: 6,
     image: image4,
     name: "Holi Celebration 2019",
     job: "Date: 18/03/2019",

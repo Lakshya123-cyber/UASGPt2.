@@ -9,6 +9,7 @@ import NotFound from "./pages/notFound/NotFound";
 import Plans from "./pages/plans/Plans";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import EventDetails from "./pages/eventDetails/EventDetails";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="events" element={<Events />} />
+        <Route path="event_details" element={<EventDetails />} />
         <Route path="members" element={<Member />} />
         <Route path="plans" element={<Plans />} />
         <Route path="contact" element={<Contact />} />

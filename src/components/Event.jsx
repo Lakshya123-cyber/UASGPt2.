@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Card from "../UI/Card";
 
 const Event = ({ image, name, job }) => {
@@ -8,6 +9,10 @@ const Event = ({ image, name, job }) => {
       </div>
       <h3>{name}</h3>
       <p>{job}</p>
+      <br />
+      <Link to="/event_details" className="btn lg">
+        Learn More
+      </Link>
     </Card>
   );
 };
