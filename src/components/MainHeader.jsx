@@ -16,8 +16,8 @@ const MainHeader = () => {
             develop and implement meaningful programs in Uttarakhand state of
             India.
           </p>
-          <Link to="/plans" className="btn lg">
-            Get Started
+          <Link to="/events" className="btn lg">
+            More about Kauthig 2023
           </Link>
         </div>
         <div className="main__header-right">
