@@ -83,7 +83,7 @@ img {
   width: fit-content;
   margin: 0 auto;
   padding: 0.9rem 2rem;
-  background: var(--color-secondary);
+  background: var(--color-gray-500);
   border-radius: 1.5rem;
   transition: var(--transition);
 }

@@ -1,0 +1,45 @@
+.events__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+
+.card.event {
+  padding: 1rem;
+}
+
+.event__img {
+  border-radius: 0 2rem;
+  overflow: hidden;
+}
+
+.event h3 {
+  margin-top: 2rem;
+}
+
+.event p {
+  margin-top: 0.5rem;
+}
+
+.event:hover a {
+  background: var(--color-gray-500);
+}
+
+@media screen and (max-width: 1024px) {
+  .events__container {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .events__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .card.event {
+    width: 90%;
+    margin-inline: auto;
+  }
+}

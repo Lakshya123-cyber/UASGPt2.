@@ -33,28 +33,28 @@ export const programs = [
     icon: <BsPinMap />,
     title: "Kauthig 2023",
     info: "This is the day that the lord has made. We will rejoice!",
-    path: "/programs/111",
+    path: "/events",
   },
   {
     id: 2,
     icon: <BsPinMap />,
     title: "Diwali Celebration 2022",
     info: "This is the day that the lord has made. We will rejoice!",
-    path: "/programs/222",
+    path: "/events",
   },
   {
     id: 3,
     icon: <BsPinMap />,
     title: "Kauthig 2019",
     info: "This is the day that the lord has made. We will rejoice!",
-    path: "/programs/333",
+    path: "/events",
   },
   {
     id: 4,
     icon: <BsPinMap />,
     title: "Holi Celebration 2019",
     info: "This is the day that the lord has made. We will rejoice!",
-    path: "/programs/444",
+    path: "/events",
   },
 ];
 
@@ -233,19 +233,23 @@ export const plans = [
   },
 ];
 
-// const Trainer1 = require("./images/trainer1.jpg");
-// const Trainer2 = require("./images/trainer2.jpg");
-// const Trainer3 = require("./images/trainer3.jpg");
-// const Trainer4 = require("./images/trainer4.jpg");
-// const Trainer5 = require("./images/trainer5.jpg");
-// const Trainer6 = require("./images/trainer6.jpg");
+const Trainer1 = require("./images/harish.jpeg");
+const Trainer2 = require("./images/atima.jpg");
+const Trainer3 = require("./images/sunil.jpeg");
+const Trainer4 = require("./images/nirupma.jpeg");
+const Trainer5 = require("./images/vinod.jpeg");
+
+const image1 = require("./images/cover.png");
+const image2 = require("./images/diwali.jpeg");
+const image3 = require("./images/kauthig.jpg");
+const image4 = require("./images/holi.png");
 
 export const trainers = [
   {
     id: 1,
-    // image: Trainer1,
-    name: "John Doe",
-    job: "Aerobic Trainer",
+    image: Trainer1,
+    name: "Harish Chandra",
+    job: "President",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -255,9 +259,9 @@ export const trainers = [
   },
   {
     id: 2,
-    // image: Trainer2,
-    name: "Daniel vinyo",
-    job: "Speed Trainer",
+    image: Trainer2,
+    name: "Atima Joshi",
+    job: "Vice President",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -267,9 +271,9 @@ export const trainers = [
   },
   {
     id: 3,
-    // image: Trainer3,
-    name: "Edem Quist",
-    job: "Flexibility Trainer",
+    image: Trainer3,
+    name: "Sunil Kumar Thapliyal",
+    job: "Secretary",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -279,9 +283,9 @@ export const trainers = [
   },
   {
     id: 4,
-    // image: Trainer4,
-    name: "Shatta Wale",
-    job: "Body Composition Trainer",
+    image: Trainer4,
+    name: "Nirupma Thapliyal",
+    job: "Treasurer",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -291,9 +295,9 @@ export const trainers = [
   },
   {
     id: 5,
-    // image: Trainer5,
-    name: "Diana Ayi",
-    job: "Circuit Trainer",
+    image: Trainer5,
+    name: "Himani Kukreti",
+    job: "Assistant Treasurer",
     socials: [
       "https://instagram.com/",
       "https://twitter.com/",
@@ -301,16 +305,31 @@ export const trainers = [
       "https://linkedin.com/",
     ],
   },
+];
+
+export const events = [
   {
-    id: 6,
-    // image: Trainer6,
-    name: "Wayne Carter",
-    job: "Physical Intelligence Trainer",
-    socials: [
-      "https://instagram.com/",
-      "https://twitter.com/",
-      "https://facebook.com/",
-      "https://linkedin.com/",
-    ],
+    id: 1,
+    image: image1,
+    name: "Kauthig 2023",
+    job: "Date: 06/08/2023",
+  },
+  {
+    id: 2,
+    image: image2,
+    name: "Diwali Celebration 2019",
+    job: "Date: 18/08/2022",
+  },
+  {
+    id: 3,
+    image: image3,
+    name: "Kauthig 2019",
+    job: "Date: 18/08/2019",
+  },
+  {
+    id: 4,
+    image: image4,
+    name: "Holi Celebration 2019",
+    job: "Date: 18/03/2019",
   },
 ];
