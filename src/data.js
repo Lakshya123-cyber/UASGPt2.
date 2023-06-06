@@ -234,7 +234,7 @@ export const trainers = [
   {
     id: 1,
     image: Trainer1,
-    name: "Harish Chandra",
+    name: "Harish Chandra Pant",
     job: "President",
     socials: [
       "https://instagram.com/",
