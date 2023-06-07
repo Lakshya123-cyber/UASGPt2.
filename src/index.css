@@ -37,8 +37,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(168, 168, 168, 1)),
-    url("./images/dd.png");
+  /* background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(168, 168, 168, 1)),
+    url("./images/dd.png"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -49,9 +49,7 @@ body {
   margin-inline: auto;
 }
 
-h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
@@ -65,6 +63,11 @@ p {
 
 h1 {
   font-size: 3rem;
+  color: var(--color-gray-500);
+}
+
+h3 {
+  color: var(--color-gray-500);
 }
 
 h2 {

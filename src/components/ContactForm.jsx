@@ -18,7 +18,7 @@ const FormStyle = styled.form`
     font-size: 2rem;
     padding: 1.2rem;
     color: #000;
-    background-color: #fff;
+    background-color: #ccc;
     outline: none;
     border: none;
     border-radius: 8px;
@@ -29,7 +29,7 @@ const FormStyle = styled.form`
     resize: vertical;
   }
   button[type="submit"] {
-    background-color: #fff;
+    background-color: #ccc;
     color: #000;
     font-size: 2rem;
     display: inline-block;
@@ -38,6 +38,12 @@ const FormStyle = styled.form`
     padding: 1rem 4rem;
     border-radius: 8px;
     cursor: pointer;
+  }
+
+  @media only screen and (min-width: 768px) {
+    button[type="submit"] {
+      width: 100%;
+    }
   }
 `;
 
