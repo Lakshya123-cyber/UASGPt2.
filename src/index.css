@@ -37,7 +37,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(168, 168, 168, 1)),
+  background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(168, 168, 168, 1)),
     url("./images/dd.png");
   background-repeat: no-repeat;
   background-size: cover;
