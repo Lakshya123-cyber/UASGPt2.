@@ -57,6 +57,10 @@
   justify-content: center;
 }
 
+.section__head .h2 {
+  color: black;
+}
+
 .programs__program:hover a {
   background: var(--color-secondary);
   color: var(--color-gray-600);
