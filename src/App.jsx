@@ -11,14 +11,14 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import EventDetails from "./pages/eventDetails/EventDetails";
 import { useEffect, useState, CSSProperties } from "react";
-import { HashLoader } from "react-spinners";
+import { ClimbingBoxLoader } from "react-spinners";
 
 const override: CSSProperties = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  marginTop: "350px",
-  marginLeft: "120px",
+  marginTop: "370px",
+  marginLeft: "140px",
 };
 
 const App = () => {
@@ -28,7 +28,7 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 800);
+    }, 1200);
   }, []);
 
   useEffect(() => {
@@ -39,10 +39,10 @@ const App = () => {
   return (
     <div>
       {loading ? (
-        <HashLoader
+        <ClimbingBoxLoader
           color="#36d7b7"
           loading={loading}
-          size={150}
+          size={25}
           cssOverride={override}
           aria-label="Loading Spinner"
           data-testid="loader"
