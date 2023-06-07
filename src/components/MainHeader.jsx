@@ -6,7 +6,7 @@ const MainHeader = () => {
     <header className="main__header">
       <div className="container main__header-container">
         <div className="main__header-left">
-          <h4>#KauthigSG2023</h4>
+          <h3>#KauthigSG2023</h3>
           <h1>Uttarakhand Association of Singapore</h1>
           <p>
             Uttarakhand Association of Singapore (UASG) is a non-profit

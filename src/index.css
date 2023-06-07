@@ -37,11 +37,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background: linear-gradient(
-    to right,
-    rgba(255, 122, 89, 1),
-    rgba(255, 122, 89, 0.4)
-  );
+  background: #e8c200;
 }
 
 .container {
@@ -58,6 +54,10 @@ h5,
 h6 {
   line-height: 1.2;
   color: var(--color-gray-100);
+}
+
+p {
+  color: var(--color-gray-500);
 }
 
 h1 {
@@ -127,7 +127,7 @@ section {
 }
 
 .card {
-  background: var(--color-secondary);
+  background: #b59700;
   border: 2px solid transparent;
   text-align: center;
   padding: 3rem 2rem;
@@ -136,7 +136,7 @@ section {
 }
 
 .card:hover {
-  background: transparent;
+  background: #ffec8a;
   border-color: var(--color-gray-400);
   cursor: default;
 }
@@ -153,6 +153,7 @@ section {
   margin-inline: auto;
   border-radius: 1rem;
   transition: var(--transition);
+  color: var(--color-gray-600);
 }
 
 .card:hover span {
@@ -164,6 +165,14 @@ section {
   margin-top: 1rem;
   display: block;
   font-weight: 300;
+}
+
+.card:hover h4 {
+  color: var(--color-gray-500);
+}
+
+.card:hover small {
+  color: var(--color-gray-500);
 }
 
 .header {
