@@ -382,7 +382,8 @@ footer {
   }
 
   .main__header-left p {
-    font-size: 0.9rem;
+    padding-left: 10px;
+    font-size: 0.76rem;
   }
 
   .main__header-container {

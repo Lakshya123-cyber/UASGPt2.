@@ -9,7 +9,6 @@ import "./home.css";
 import layerBaseImage from "../../images/layer-base.png";
 import layerMiddleImage from "../../images/layer-middle.png";
 import layerFrontImage from "../../images/layer-front.png";
-import dungeonImage from "../../images/dungeon.jpg";
 
 const Home = () => {
   useEffect(() => {
