@@ -1,4 +1,3 @@
-
 import Image from "../images/logo.png";
 
 const MainHeader = () => {
@@ -15,8 +14,7 @@ const MainHeader = () => {
             voluntary organization established in Singapore. UASG's mission is
             to nurture a strong network of Indian diaspora around the rich and
             diverse heritage of Uttarakhand, India. The mission also includes to
-            develop and implement meaningful programs in Uttarakhand state of
-            India.
+            develop and implement meaningful programs in Uttarakhand
           </p>
         </div>
         <div className="main__header-right">
