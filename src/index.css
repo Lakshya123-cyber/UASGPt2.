@@ -27,6 +27,8 @@
   --container-width-md: 90%;
 
   --transition: all 500ms ease;
+  --transition-2: transform 0.75s cubic-bezier(0.075, 0.5, 0, 1);
+  --index: calc(1vw + 1vh);
 }
 
 body {
