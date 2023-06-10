@@ -69,6 +69,9 @@ nav {
 
 /* Media Queries (medium and small devices) */
 @media screen and (max-width: 1024px) {
+  nav {
+    height: 3.5rem;
+  }
   .nav__toggle-btn {
     background: transparent;
     display: inline-block;
@@ -150,5 +153,9 @@ nav {
 
   .hide__nav {
     display: none;
+  }
+
+  .logo {
+    width: 3rem;
   }
 }

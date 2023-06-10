@@ -371,7 +371,7 @@ footer {
 
 @media screen and (max-width: 600px) {
   .main__header {
-    margin-top: -150px;
+    margin-top: -250px;
     padding: 12rem 0 0;
     height: 100vh;
   }
@@ -383,7 +383,7 @@ footer {
 
   .main__header-left p {
     padding-left: 10px;
-    font-size: 0.76rem;
+    font-size: 1rem;
   }
 
   .main__header-container {
