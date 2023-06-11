@@ -40,9 +40,9 @@ const App = () => {
     <div>
       {loading ? (
         <RingLoader
-          color="#36d7b7"
+          color="pink"
           loading={loading}
-          size={25}
+          size={150}
           cssOverride={override}
           aria-label="Loading Spinner"
           data-testid="loader"
