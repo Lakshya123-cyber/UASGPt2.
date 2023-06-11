@@ -17,8 +17,8 @@ const override: CSSProperties = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center",
-  marginTop: "300px",
-  marginLeft: "140px",
+  marginTop: "250px",
+  marginLeft: "100px",
 };
 
 const App = () => {
