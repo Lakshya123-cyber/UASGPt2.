@@ -144,11 +144,6 @@ section {
   border-color: var(--color-gray-400);
 }
 
-.card:hover {
-  background: #b59700;
-  cursor: default;
-}
-
 .card span {
   width: 3rem;
   height: 3rem;
@@ -164,11 +159,6 @@ section {
   color: var(--color-gray-600);
 }
 
-.card:hover span {
-  background: var(--color-gray-400);
-  color: var(--color-gray-600);
-}
-
 .card small {
   margin-top: 1rem;
   display: block;
@@ -177,14 +167,6 @@ section {
 }
 
 .card h4 {
-  color: var(--color-gray-500);
-}
-
-.card:hover h4 {
-  color: var(--color-gray-500);
-}
-
-.card:hover small {
   color: var(--color-gray-500);
 }
 

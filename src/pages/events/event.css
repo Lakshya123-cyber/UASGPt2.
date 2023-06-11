@@ -8,7 +8,6 @@
   padding: 1rem;
 }
 
-
 .event__img {
   border-radius: 0 2rem;
   overflow: hidden;
@@ -18,16 +17,8 @@
   margin-top: 2rem;
 }
 
-.event:hover h3 {
-  color: var(--color-gray-500);
-}
-
 .event p {
   margin-top: 0.5rem;
-}
-
-.event:hover a {
-  background: var(--color-gray-500);
 }
 
 @media screen and (max-width: 1024px) {

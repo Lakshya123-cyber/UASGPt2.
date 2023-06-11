@@ -124,11 +124,6 @@
   color: black;
 }
 
-.programs__program:hover a {
-  background: var(--color-secondary);
-  color: var(--color-gray-600);
-}
-
 .values__container {
   display: grid;
   grid-template-columns: 38% 50%;
@@ -169,10 +164,14 @@
 }
 
 .faq {
-  background: #8c7500;
+  background: #ffec8a;
   padding: 2rem;
   border-radius: 1rem;
   cursor: pointer;
+}
+
+.faq h4 {
+  color: black;
 }
 
 .faq div {
@@ -183,7 +182,7 @@
 
 .faq__icon {
   background: transparent;
-  color: var(--color-gray-100);
+  color: var(--color-gray-600);
   font-size: 1.5rem;
 }
 
@@ -219,18 +218,9 @@
   transition: var(--transition);
 }
 
-.testimonial:hover .testimonial__avatar {
-  border-radius: 50%;
-  border-color: var(--color-gray-400);
-}
-
 .testimonial__quote {
   font-style: italic;
   margin: 1rem 0 2rem;
-}
-
-.testimonial:hover h5 {
-  color: black;
 }
 
 .card small.testimonial__title {
@@ -279,13 +269,15 @@ footer {
   gap: 0.7rem;
 }
 
-.footer__container article p {
+.footer__container article a {
   margin-top: 0.5rem;
+  color: black;
 }
 
 .footer__container article h4 {
   margin-bottom: 0.6rem;
   font-size: 1rem;
+  color: black;
 }
 
 .footer__socials {

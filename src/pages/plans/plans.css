@@ -32,7 +32,7 @@
 }
 
 .plan p.disabled {
-  color: var(--color-gray-400);
+  color: var(--color-gray-200);
 }
 
 .plan button {
@@ -41,9 +41,9 @@
   cursor: pointer;
 }
 
-.plan:hover h3,
-.plan:hover h1,
-.plan:hover p {
+.plan h3,
+.plan h1,
+.plan p {
   color: black;
 }
 
