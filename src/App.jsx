@@ -18,7 +18,7 @@ const override: CSSProperties = {
   justifyContent: "center",
   alignItems: "center",
   marginTop: "250px",
-  marginLeft: "100px",
+  marginLeft: "120px",
 };
 
 const App = () => {
