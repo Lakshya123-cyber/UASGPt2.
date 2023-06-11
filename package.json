@@ -38,5 +38,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "vite-plugin": "^0.0.0",
+    "vite-plugin-windicss": "^1.9.0",
+    "windicss": "^3.5.6"
   }
 }

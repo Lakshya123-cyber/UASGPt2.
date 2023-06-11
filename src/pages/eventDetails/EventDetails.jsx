@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { posts } from "../../data";
 import "./eventDetails.css";
-import { Link } from "react-router-dom";
+
 import pdf from "../../images/kauthigg.pdf";
 
 const EventDetails = () => {

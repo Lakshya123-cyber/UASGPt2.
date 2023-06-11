@@ -40,7 +40,7 @@ const Testimonials = () => {
             <img src={avatar} alt={name} />
           </div>
           <p className="testimonial__quote">{`"${quote}"`}</p>
-          <h5>{name}</h5>
+          <h5 style={{ color: "black" }}>{name}</h5>
           <small className="testimonial__title">{job}</small>
         </Card>
         <div className="testimonial__btn-container">

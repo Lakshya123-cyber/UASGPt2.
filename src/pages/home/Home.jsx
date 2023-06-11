@@ -8,7 +8,6 @@ import "./home.css";
 
 import layerBaseImage from "../../images/layer-base.png";
 import layerMiddleImage from "../../images/layer-middle.png";
-import layerFrontImage from "../../images/layer-front.png";
 
 const Home = () => {
   useEffect(() => {
@@ -41,10 +40,6 @@ const Home = () => {
               <div
                 className="img-layer layer-mid"
                 style={{ backgroundImage: `url(${layerMiddleImage})` }}
-              ></div>
-              <div
-                className="img-layer layer-front"
-                style={{ backgroundImage: `url(${layerFrontImage})` }}
               ></div>
             </div>
           </header>
