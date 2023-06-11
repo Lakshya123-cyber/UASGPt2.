@@ -11,7 +11,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import EventDetails from "./pages/eventDetails/EventDetails";
 import { useEffect, useState, CSSProperties } from "react";
-import { ClimbingBoxLoader } from "react-spinners";
+import { RingLoader } from "react-spinners";
 
 const override: CSSProperties = {
   display: "flex",
@@ -39,7 +39,7 @@ const App = () => {
   return (
     <div>
       {loading ? (
-        <ClimbingBoxLoader
+        <RingLoader
           color="#36d7b7"
           loading={loading}
           size={25}
