@@ -10,16 +10,8 @@ import Plans from "./pages/plans/Plans";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import EventDetails from "./pages/eventDetails/EventDetails";
-import { useEffect, useState, CSSProperties } from "react";
-import { RingLoader } from "react-spinners";
-
-const override: CSSProperties = {
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center",
-  marginTop: "250px",
-  marginLeft: "120px",
-};
+import { useEffect, useState } from "react";
+import RingLoader from "./UI/RingLoader";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
@@ -28,7 +20,7 @@ const App = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1200);
+    }, 1300);
   }, []);
 
   useEffect(() => {
@@ -39,14 +31,7 @@ const App = () => {
   return (
     <div>
       {loading ? (
-        <RingLoader
-          color="pink"
-          loading={loading}
-          size={150}
-          cssOverride={override}
-          aria-label="Loading Spinner"
-          data-testid="loader"
-        />
+        <RingLoader />
       ) : (
         <BrowserRouter>
           <Navbar />
