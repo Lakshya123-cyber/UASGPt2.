@@ -22,13 +22,16 @@ const Plans = () => {
           {plans.map(({ id, name, desc, price, features }) => {
             return (
               <Card key={id} className="plan">
-                <h3>{name}</h3>
+                <h3 style={{ color: "yellow", fontSize: "23px" }}>{name}</h3>
                 <small>{desc}</small>
-                <h1>{`$${price}`}</h1>
-                <h4>Features</h4>
+                <h1 style={{ color: "orange" }}>{`$${price}`}</h1>
+                <h4 style={{ fontSize: "19px" }}>Features</h4>
                 {features.map(({ feature, available }, index) => {
                   return (
-                    <p key={index} className={!available ? "disabled" : ""}>
+                    <p
+                      key={index}
+                      className={!available ? "disabled" : "enabled"}
+                    >
                       {feature}
                     </p>
                   );

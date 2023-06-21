@@ -6,8 +6,8 @@ const Trainer = ({ image, name, job, socials }) => {
       <div className="trainer__img">
         <img src={image} alt={name} />
       </div>
-      <h3>{name}</h3>
-      <p>{job}</p>
+      <h3 style={{ color: "white" }}>{name}</h3>
+      <p style={{ color: "yellow" }}>{job}</p>
       <div className="trainer__socials">
         {socials.map(({ icon, link }, index) => {
           return (

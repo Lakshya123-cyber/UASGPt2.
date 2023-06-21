@@ -7,12 +7,14 @@ const Event = ({ image, name, job }) => {
       <div className="event__img">
         <img src={image} alt={name} />
       </div>
-      <h3>{name}</h3>
+      <h3 style={{ color: "yellow" }}>{name}</h3>
       <p>{job}</p>
       <br />
       <Link to="/event_details" className="btn lg">
         Learn More
       </Link>
+      <br />
+      <br />
     </Card>
   );
 };

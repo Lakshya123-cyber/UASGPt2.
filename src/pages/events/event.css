@@ -8,6 +8,10 @@
   padding: 1rem;
 }
 
+.btn.lg {
+  margin-bottom: 10px;
+}
+
 .event__img {
   border-radius: 0 2rem;
   overflow: hidden;

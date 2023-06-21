@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 const ItemStyles = styled.div`
   padding: 2rem;
-  background-color: #00becc;
+  background-color: #a32012;
   display: flex;
   align-items: center;
   gap: 2rem;

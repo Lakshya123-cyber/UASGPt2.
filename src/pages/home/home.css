@@ -120,6 +120,10 @@
   justify-content: center;
 }
 
+.programs__program p {
+  color: yellow;
+}
+
 .section__head .h2 {
   color: black;
 }
@@ -155,6 +159,10 @@
   top: -1.5rem;
 }
 
+.card.values__value small {
+  color: yellow;
+}
+
 .faqs__wrapper {
   margin-top: 4rem;
   display: grid;
@@ -164,14 +172,15 @@
 }
 
 .faq {
-  background: #ffec8a;
+  background: #a32012;
+
   padding: 2rem;
   border-radius: 1rem;
   cursor: pointer;
 }
 
 .faq h4 {
-  color: black;
+  color: white;
 }
 
 .faq div {
@@ -182,12 +191,13 @@
 
 .faq__icon {
   background: transparent;
-  color: var(--color-gray-600);
+  color: var(--color-gray-200);
   font-size: 1.5rem;
 }
 
 .faq p {
   margin-top: 1.5rem;
+  color: yellow;
 }
 
 .testimonials {
@@ -218,9 +228,10 @@
   transition: var(--transition);
 }
 
-.testimonial__quote {
+p .testimonial__quote {
   font-style: italic;
   margin: 1rem 0 2rem;
+  color: white;
 }
 
 .card small.testimonial__title {
@@ -249,11 +260,10 @@
 }
 
 footer {
-  background: var(--color-primary);
+  background: #a32012;
   margin-top: 7rem;
   padding-top: 7rem;
   font-size: 0.9rem;
-  color: var(--color-gray-100);
 }
 
 .footer__container {
@@ -271,13 +281,17 @@ footer {
 
 .footer__container article a {
   margin-top: 0.5rem;
-  color: black;
+  color: white;
 }
 
 .footer__container article h4 {
   margin-bottom: 0.6rem;
   font-size: 1rem;
-  color: black;
+  color: white;
+}
+
+.footer__container article p {
+  color: white;
 }
 
 .footer__socials {
@@ -296,13 +310,17 @@ footer {
 }
 
 .footer__socials a svg {
-  color: var(--color-gray-600);
+  color: #a32012;
   font-size: 1.1rem;
 }
 
 .footer__socials a:hover {
   border-color: var(--color-gray-100);
-  background: transparent;
+  background: #a32012;
+}
+
+.footer__socials a:hover svg {
+  color: white;
 }
 
 .footer__copyright {

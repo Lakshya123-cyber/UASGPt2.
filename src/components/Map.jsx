@@ -14,7 +14,7 @@ const MapStyles = styled.div`
     right: 30%;
     bottom: 10%;
     padding: 2rem;
-    background: #00becc;
+    background: #a32012;
     width: 100%;
     max-width: 400px;
     border-radius: 12px;
@@ -22,6 +22,7 @@ const MapStyles = styled.div`
   .map__card__heading {
     font-size: 2.6rem;
     margin-bottom: 1rem;
+    color: white;
   }
 
   .map__card__link {
@@ -29,6 +30,7 @@ const MapStyles = styled.div`
     font-size: 1.2rem;
     margin-top: 0.4rem;
     text-decoration: underline;
+    color: yellow;
   }
 
   @media only screen and (max-width: 768px) {
