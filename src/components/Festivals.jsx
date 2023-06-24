@@ -1,25 +1,22 @@
 import { FaCrown } from "react-icons/fa";
 import SectionHead from "./SectionHead";
-import { programs } from "../data";
+import { festivals } from "../data";
 import { Link } from "react-router-dom";
 
 import Card from "../UI/Card";
 
-const Programs = () => {
+const Festivals = () => {
   return (
     <section className="programs">
       <div className="container programs__container">
         <SectionHead icon={<FaCrown />} title="Events" />
         <div className="programs__wrapper">
-          {programs.map(({ id, icon, title, info, path }) => {
+          {festivals.map(({ id, image, title, info }) => {
             return (
               <Card className="programs__program" key={id}>
-                <span>{icon}</span>
-                <h4>{title}</h4>
+                <img src={image} alt="img" />
+                <h4 style={{ marginTop: "10px" }}>{title}</h4>
                 <p>{info}</p>
-                <Link to={path} className="btn md">
-                  Learn More
-                </Link>
               </Card>
             );
           })}
@@ -29,4 +26,4 @@ const Programs = () => {
   );
 };
 
-export default Programs;
+export default Festivals;

@@ -8,6 +8,7 @@ import "./home.css";
 
 import layerBaseImage from "../../images/layer-base.png";
 import layerMiddleImage from "../../images/layer-middle.png";
+import Festivals from "../../components/Festivals";
 
 const Home = () => {
   useEffect(() => {
@@ -47,6 +48,7 @@ const Home = () => {
       </div>
       <Programs />
       <Values />
+      <Festivals />
       <FAQs />
       <Testimonials />
     </>

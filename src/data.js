@@ -332,6 +332,45 @@ export const events = [
   },
 ];
 
+export const festivals = [
+  {
+    id: 1,
+    image: image1,
+    title: "Kauthig 2023",
+    info: "dadadadadadad",
+  },
+  {
+    id: 2,
+    image: image2,
+    name: "Diwali Celebration 2022",
+    job: "Date: 18/08/2022",
+  },
+  {
+    id: 3,
+    image: image3,
+    name: "Kauthig 2019",
+    job: "Date: 18/08/2019",
+  },
+  {
+    id: 4,
+    image: image4,
+    name: "Holi Celebration 2019",
+    job: "Date: 18/03/2019",
+  },
+  {
+    id: 5,
+    image: image4,
+    name: "Holi Celebration 2019",
+    job: "Date: 18/03/2019",
+  },
+  {
+    id: 6,
+    image: image4,
+    name: "Holi Celebration 2019",
+    job: "Date: 18/03/2019",
+  },
+];
+
 export const posts = [
   {
     id: 1,

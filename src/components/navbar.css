@@ -70,7 +70,7 @@ nav {
 /* Media Queries (medium and small devices) */
 @media screen and (max-width: 1024px) {
   nav {
-    height: 3.5rem;
+    height: 3.7rem;
   }
   .nav__toggle-btn {
     background: transparent;
@@ -98,7 +98,7 @@ nav {
   }
 
   .nav__links li {
-    height: 4rem;
+    height: 3rem;
     width: 100%;
     box-sizing: -2rem 2rem 5rem rgba(0, 0, 0, 0.5);
     animation: navAnimation 600ms ease forwards;
@@ -139,12 +139,13 @@ nav {
   }
 
   .nav__links li a {
-    background-color: var(--color-secondary);
+    background-color: #a32012;
+    color: white;
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
-    padding: 1rem 5rem 1rem 3rem;
+    padding: 1rem 2rem 1rem 3rem;
   }
 
   .show__nav {
